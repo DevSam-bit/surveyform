@@ -1,0 +1,107 @@
+body {
+    font-family: 'Merriweather', serif;
+    line-height: 1.5;
+    font-size: 1rem;
+    color: white;
+    margin: 0;
+    font-weight: 300;
+}
+
+body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: linear-gradient(45deg, rgba(19, 39, 67, 0.8), rgba(64, 112, 136, 0.7) ), url(./images/pexels-fauxels-3184423.jpg);
+}
+
+#title {
+        margin: 5% auto 1% auto;
+        font-weight: 400;
+        line-height: 1.7;
+        text-align: center;
+}
+
+#description {
+        font-size: 1.313rem;
+        line-height: 130%;
+        letter-spacing: 0.013em;
+        margin-bottom: 2.5rem;
+        text-align: center;
+}
+
+#survey-form {
+        margin: 15px auto 0 auto;
+        padding: 2rem;
+        background-color: #407088;
+        border-radius: 0.5rem;
+        width: 50%;
+        opacity: 0.8;
+}
+
+.survey-form1 {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    font-size: 1.2em;
+    margin: 0 40rem 0.6rem 0;
+}  
+
+.input {
+        width: 100%;
+        height: 2.5rem;
+        display: block;
+        border-radius: 0.3rem;
+        font-family: 'Merriweather', serif;
+        padding: 0.25rem 0.75rem;
+        margin-top: 0;
+        font-size: 1em;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+}
+
+.input-form {
+    margin-right: 0.4rem;
+}
+
+.survey-form-p {
+    font-size: 1.27rem;
+    margin-bottom: 0.3rem;
+}
+
+#textarea-label {
+    font-family: 'Merriweather', serif;
+    padding: 1rem 0.80rem;
+    border-radius: 0.4rem;
+}
+
+#submit {
+    width: 100%;
+    height: 2.8rem;
+    border-radius: 0.4rem;
+    font-family: 'Merriweather', serif;
+    background-color: #ee6f57;
+    font-size: 1em;
+    border: 1px solid #ee6f57;
+
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+  
